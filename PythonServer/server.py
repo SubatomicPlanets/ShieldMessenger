@@ -2,7 +2,6 @@ import ssl
 import rsa
 import json
 import socket
-import struct
 import base64
 import sqlite3
 import threading
