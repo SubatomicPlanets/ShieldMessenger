@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/phoneNumberInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/startButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#101010"
+        android:gravity="center_horizontal"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:paddingVertical="14dp"
+        android:paddingHorizontal="24dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#2196F3"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
