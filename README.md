@@ -35,4 +35,6 @@ In the end, this was just me experimenting with cryptography.
 - Maybe find a better way to pass data between activities and the service.
 - Improve phone number hashing by using some kind of dynamic salt.
 - Add more error checks and improve the code.
+- Use ECC and AES instead of RSA for faster and longer messages
+- Add the ability to send images
 - Maybe use the Signal protocol.
